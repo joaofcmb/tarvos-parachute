@@ -30,4 +30,4 @@ add_custom_target(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(Z_DUMMY_TARGET ${SRC_LIST} src/apogee.cpp src/apogee.h src/detect.cpp src/detect.h)
+add_executable(Z_DUMMY_TARGET ${SRC_LIST} src/sensors/gyroscope.cpp src/sensors/gyroscope.h src/sensors/magnetometer.cpp src/sensors/magnetometer.h)
